@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto:ital,wght@1,300&display=swap');
+.youtube-section{
+    display: flex;
+    flex-wrap: wrap;
+    overflow: auto;
+    width: 100%;
+    justify-content: space-around;
+}
+.youtube-title{
+    margin: 2rem 1.2rem;
+}
+.youtube-title h2{
+    font-size: 2.2rem;
+    font-family: 'Lexend Mega', sans-serif;
+    margin-left: 1rem;
+}
+
+@media screen and (min-width: 768px) {
+    .youtube-title h2{
+        font-size: 3.2rem;
+    }
+}

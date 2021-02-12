@@ -1,0 +1,9 @@
+.card-main{
+    margin: 0.7rem 0;
+}
+@media screen and (min-width: 768px) {
+    .card-main{
+        width: 350px;
+        height: 200px;
+    }
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Mega&family=Roboto:ital,wght@1,300&display=swap');
+
+.section-content-more{
+    margin-top: 100px;
+}
+
+.section-content-more h1{
+    font-size: 2.5rem;
+    font-weight: 700;
+    font-family: 'Lexend Mega', sans-serif;
+    text-align: center;
+
+}
+.div-content-text{
+    padding: 2rem 1.4rem;
+}   
+.div-content-text p{
+    font-size: 1.6rem;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+@media screen and (min-width: 768px) {
+    .section-content-more h1{
+        font-size: 4rem;
+        font-weight: 700;
+        font-family: 'Lexend Mega', sans-serif;
+        text-align: center;
+    
+    }
+    .div-content-text{
+        padding: 4rem 2.4rem;
+    } 
+    .div-content-text p{
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+}
+@media screen and (min-width: 1024px) {
+    .section-content-more{
+        margin-top: 200px;
+    }
+    .section-content-more h1{
+        font-size: 3.2rem;
+        font-weight: 700;
+        font-family: 'Lexend Mega', sans-serif;
+        text-align: center;
+    
+    }
+    .div-content-text{
+        padding: 5rem 4rem;
+    } 
+    .div-content-text p{
+        font-size: 2.5rem;
+        font-family: 'Roboto', sans-serif;
+    
+    }
+    
+}

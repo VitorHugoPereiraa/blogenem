@@ -1,0 +1,16 @@
+.div-caroussel{
+    margin-top: 90px;
+}
+
+@media screen and (min-width: 1024px) {
+  .div-caroussel{
+      width: 700px;
+      height: 600px;
+      margin: 0 23%;
+      margin-top: 12%;
+     
+  }
+  .d-block{
+    border-radius: 40px;
+  }
+}
